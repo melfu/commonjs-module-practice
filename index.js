@@ -2,7 +2,9 @@ const add  = require("./modules/add");
 const subtract = require("./modules/subtract");
 const multiply= require("./modules/multiply");
 const {addTen, addFive} = require("./modules/addNumbers");
-const {subtractOne}= require("./modules/subtractNumbers");
+const {subtractOne, subtractFive, subtractTen} = require("./modules/subtractNumbers");
+const divide  = require("./modules/divide");
+const addOne  = require("./modules/addOne");
 
 const number1 = 393;
 const number2 = 238;
